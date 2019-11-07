@@ -1,0 +1,16 @@
+<div class="inlineEditWrapper">
+    <a (click)="edit(value)" class="edit-link" [hidden]="editing"> {{ showText() }}</a>
+    <div class="inlineEditForm form-inline" [hidden]="!editing" (focusout)="focusout($event)">
+        <div class="form-group">
+            <div #container></div>
+            <span>
+                <button id="editor-button-save" class="btn btn-primary" (click)="save(value)" [disabled]="!validate()">
+                    &#10003;
+                </button>
+                <button id="editor-button-close" class="btn btn-danger" (click)="cancel()">
+                    &#10007;
+                </button>
+            </span>
+        </div>
+    </div>
+</div>

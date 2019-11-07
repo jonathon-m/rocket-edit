@@ -1,0 +1,53 @@
+@import "scss/variables";
+
+.inlineEditWrapper {
+    .edit-link {
+        text-decoration: none;
+        border-bottom: 1px dotted #1767bd;
+        cursor: pointer;
+        word-break: break-all;
+    }
+    a:not([href]):not([tabindex]) {
+        color: #428bca;
+    }
+    .form-inline .form-group {
+        display: inline-block;
+    }
+    .btn {
+        padding: 5px 7px;
+        margin: 0px 0px 0px 5px;
+        background: none;
+        @include border0();
+        font-weight: 100;
+        min-width: ($width100 - 70px);
+    }
+    .btn-primary {
+        box-shadow: 0 3px 5px rgba(0,0,0,0.125) inset;
+        outline: none;
+        background-color: $color_strong_blue;
+        color: #e8e8e8;
+        &:active:focus {
+            background-color: #204d74;
+            border-color: #122b40;
+            box-shadow: none;
+        }
+    }
+    .btn-danger {
+        box-shadow: 0 3px 5px rgba(0,0,0,0.125) inset;
+        outline: none;
+        background-color: #f9534f;
+        .fa {
+            color: $color_dark_gray;
+        }
+        &:active:focus {
+            background-color: rgb(212,212,212);
+            border-color: rgb(140,140,140);
+            box-shadow: none;
+        }
+    }
+}
+.inlineEditWrapper {
+    width:auto;
+    white-space: normal;
+    display: inline-block;
+}

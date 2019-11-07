@@ -1,0 +1,5 @@
+<select class="form-control" [(ngModel)]="value" [required]="config.required">
+    <option *ngFor="let item of config.options" [value]="item.key">
+        {{ item.value}}
+    </option>
+</select>
