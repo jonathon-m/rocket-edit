@@ -280,7 +280,7 @@ Thanks for understanding!
     `npm run build:watch`
 
 ## Authors
-[Vijay Yadav](https://github.com/ng-rocket)
+[Vijay Yadav](https://github.com/yadavgvijay)
 
 ## License
 
