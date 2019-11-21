@@ -1,5 +1,7 @@
 # Rocket Edit - Inline Editor Angular (version 8+) Component
 
+<img alt="npm" src="https://img.shields.io/npm/dt/rocket-edit?style=flat-square"> ![npm](https://img.shields.io/npm/v/rocket-edit?style=flat-square) ![NPM](https://img.shields.io/npm/l/rocket-edit?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/ng-rocket/rocket-edit?style=flat-square)
+
 Rocket-edit is a library of Angular (version 8+) that allows you to create editable elements.
 Such technique is also known as *click-to-edit* or *edit-in-place*.
 
