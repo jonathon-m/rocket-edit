@@ -1,4 +1,4 @@
-# Rocket Edit - Inline Editor Angular (version 8+) Component
+# Rocket Edit - Angular Inline Editor
 
  <img align="right" width="100" height="100" src="https://raw.githubusercontent.com/ng-rocket/rocket-edit/master/ngRocket.png" />
   
