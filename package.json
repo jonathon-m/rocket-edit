@@ -1,6 +1,6 @@
 {
   "name": "rocket-edit",
-  "version": "0.0.9",
+  "version": "0.1.1",
   "description": "rocket-edit is a library of Angular (version 8+) that allows you to create editable elements. Such technique is also known as click-to-edit or edit-in-place.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/ng-rocket/rocket-edit#readme",
   "peerDependencies": {
     "@angular/common": "^8.2.13",
-    "@angular/core": "^8.2.13"
+    "@angular/core": "^8.2.13",
+    "rxjs": "~6.4.0"
   }
 }
