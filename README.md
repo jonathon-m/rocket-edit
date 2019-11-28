@@ -15,7 +15,7 @@ For themes you may need to include Bootstrap CSS.
 ### Angular 8+ Version
 
 Angular 8 is now stable. Therefore, if encountering errors using this
-lib, ensure your version of Angular is compatible. The current version used to develop this lib is angular 8 **^8.0.0**.
+lib, ensure your version of Angular is compatible. The current version used to develop this lib is angular **^8.0.0**.
 
 ## Controls & Features
 
