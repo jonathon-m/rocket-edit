@@ -1,8 +1,8 @@
 # Rocket Edit - Angular Inline Editor
 
- <img align="right" width="100" height="100" src="https://raw.githubusercontent.com/ng-rocket/rocket-edit/master/ngRocket.png" />
+ <img align="right" width="100" height="100" src="https://raw.githubusercontent.com/tensor-labs/rocket-edit/master/ngRocket.png" />
   
-  ![npm](https://img.shields.io/npm/dt/rocket-edit?style=flat-square) ![npm](https://img.shields.io/npm/v/rocket-edit?style=flat-square) ![NPM](https://img.shields.io/npm/l/rocket-edit?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/ng-rocket/rocket-edit?style=flat-square)
+  ![npm](https://img.shields.io/npm/dt/rocket-edit?style=flat-square) ![npm](https://img.shields.io/npm/v/rocket-edit?style=flat-square) ![NPM](https://img.shields.io/npm/l/rocket-edit?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/tensor-labs/rocket-edit?style=flat-square)
 
 Rocket-edit is a library of Angular (version 8+) that allows you to create editable elements.
 Such technique is also known as *click-to-edit* or *edit-in-place*.
@@ -267,7 +267,7 @@ Typescript code:
 
 Please follow this guidelines when reporting bugs and feature requests:
 
-1. Use [GitHub Issues](https://github.com/ng-rocket/Rocket-Edit/issues) board to report bugs and feature requests (not our email address)
+1. Use [GitHub Issues](https://github.com/tensor-labs/Rocket-Edit/issues) board to report bugs and feature requests (not our email address)
 2. Please **always** write steps to reproduce the error. That way we can focus on fixing the bug, not scratching our heads trying to reproduce it.
 
 Thanks for understanding!
@@ -287,4 +287,4 @@ Thanks for understanding!
 
 ## License
 
-[The MIT License (MIT)](https://github.com/ng-rocket/Rocket-Edit/blob/master/LICENCE.md)
+[The MIT License (MIT)](https://github.com/tensor-labs/Rocket-Edit/blob/master/LICENCE.md)

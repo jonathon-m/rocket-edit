@@ -1,13 +1,13 @@
 {
   "name": "rocket-edit",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "rocket-edit is a library of Angular (version 8+) that allows you to create editable elements. Such technique is also known as click-to-edit or edit-in-place.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ng-rocket/rocket-edit.git"
+    "url": "git+https://github.com/tensor-labs/rocket-edit.git"
   },
   "keywords": [
     "inline-edit",
@@ -22,9 +22,9 @@
   "author": "Vijay Yadav",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ng-rocket/rocket-edit/issues"
+    "url": "https://github.com/tensor-labs/rocket-edit/issues"
   },
-  "homepage": "https://github.com/ng-rocket/rocket-edit#readme",
+  "homepage": "https://github.com/tensor-labs/rocket-edit#readme",
   "peerDependencies": {
     "@angular/common": "^8.2.13",
     "@angular/core": "^8.2.13",
