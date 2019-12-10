@@ -158,19 +158,15 @@ export class EditorComponent implements OnInit, AfterContentInit, OnDestroy, Con
 
   showText() {
     if (this.value === null || this.value === undefined) {
-      console.log('null or undefined');
       return this.selectPlaceholder;
     } else if (this.value.toString().trim().length === 0) {
-      console.log('length 0')
       return this.selectPlaceholder;
     } else {
       if (this.type !== 'select') {
         return this.value;
       } else {
         const r = this.options.find(x => x.key === this.value);
-        console.log(r)
           if(r === undefined) {
-            console.log('select placehodler')
           return this.selectPlaceholder;
         }
         return r.value === null ? this.selectPlaceholder : r.value;
