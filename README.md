@@ -150,7 +150,7 @@ The `$event` argument will be the value return of the input send.
 * **`title`** [`string`] Specified placeholder title for `<input>`.
 * **`minlength`** [`number`] the minlength attribute specifies the minimum characters for an `<input>` element. Default is `1`.
 * **`maxlength`** [`number`] the maxlength attribute specifies the maximum characters for an `<input>` element. Default is `Infinity`.
-* **`selectPlaceholder` [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
+* **`selectPlaceholder`** [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
 ##### Password
 
 ```HTML
@@ -177,7 +177,7 @@ The `$event` argument will be the value return of the input send.
 * **`title`** [`string`] Specified placeholder title for `<input>`.
 * **`minlength`** [`number`] the minlength attribute specifies the minimum characters for an `<input>` element. Default is `1`.
 * **`maxlength`** [`number`] the maxlength attribute specifies the maximum characters for an `<input>` element. Default is `Infinity`.
-* **`selectPlaceholder` [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
+* **`selectPlaceholder`** [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
 
 ##### Number
 
@@ -204,7 +204,7 @@ The `$event` argument will be the value return of the input send.
 * **`required`** [`boolean`] Specifies whether the `<input>` is mandatory or not.
 * **`placeholder`** [`string`] Specified placeholder text for `<input>`.
 * **`title`** [`string`] Specified placeholder title for `<input>`.
-* **`selectPlaceholder` [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
+* **`selectPlaceholder`** [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
 
 ##### Time
 
@@ -227,7 +227,7 @@ The `$event` argument will be the value return of the input send.
 * **`required`** [`boolean`] Specifies whether the `<input>` is mandatory or not.
 * **`title`** [`string`] Specified placeholder title for `<input>`.
 * **`step`** [`number`] The step attribute specifies the legal number intervals for seconds or milliseconds in a time field. Default is `1`.
-* **`selectPlaceholder` [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
+* **`selectPlaceholder`** [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
 
 ##### Select
 
@@ -250,7 +250,7 @@ The `$event` argument will be the value return of the input send.
 * **`required`** [`boolean`] Specifies whether the `<input>` is mandatory or not.
 * **`title`** [`string`] Specified placeholder title for `<input>`.
 * **`options`** [`Array[{Value:string, Key: any }]`] Array of items from which to select. Should be an array of objects with `Value` and `Key` properties.
-* **`selectPlaceholder` [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
+* **`selectPlaceholder`** [`string`] Specified text to display if `<input>` element is empty or hasve no value. Default is  `Click to add`.
 
 Typescript code:
 ```TypeScript
