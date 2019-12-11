@@ -53,6 +53,7 @@ export class EditorComponent implements OnInit, AfterContentInit, OnDestroy, Con
   @Input() maxlength;
   @Input() options;
   @Input() step;
+  @Input() selectPlaceholder = 'Click to add';
 
   private _value = '';
   private preValue = '';
@@ -157,18 +158,18 @@ export class EditorComponent implements OnInit, AfterContentInit, OnDestroy, Con
 
   showText() {
     if (this.value === null || this.value === undefined) {
-      return 'Click to add';
+      return this.selectPlaceholder;
     } else if (this.value.toString().trim().length === 0) {
-      return 'Click to add';
+      return this.selectPlaceholder;
     } else {
       if (this.type !== 'select') {
         return this.value;
       } else {
-        const r = this.options.find(x => x.Key === +this.value);
+        const r = this.options.find(x => x.key === this.value);
           if(r === undefined) {
-          return 'Click to add';
+          return this.selectPlaceholder;
         }
-        return r.Value === null ? 'Click to add' : r.Value;
+        return r.value === null ? this.selectPlaceholder : r.value;
       }
     }
   }
