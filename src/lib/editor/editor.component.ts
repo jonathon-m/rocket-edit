@@ -21,8 +21,7 @@ const defaultCnf: GlobalConfig = {
   maxlength: 100,
   pattern: undefined,
   options: [],
-  step: 'any',
-  selectPlaceholder: 'Click to add'
+  step: 'any'
 };
 
 @Component({
@@ -54,7 +53,7 @@ export class EditorComponent implements OnInit, AfterContentInit, OnDestroy, Con
   @Input() maxlength;
   @Input() options;
   @Input() step;
-  @Input() selectPlaceholder;
+  @Input() selectPlaceholder = 'Click to add';
 
   private _value = '';
   private preValue = '';
@@ -131,8 +130,7 @@ export class EditorComponent implements OnInit, AfterContentInit, OnDestroy, Con
       options: this.options ? this.options : defaultCnf.options,
       pattern: this.pattern ? this.pattern : defaultCnf.pattern,
       title: this.title ? this.title : defaultCnf.title,
-      step: this.step ? this.step : defaultCnf.step,
-      selectPlaceholder: this.selectPlaceholder ? this.selectPlaceholder : defaultCnf.selectPlaceholder
+      step: this.step ? this.step : defaultCnf.step
     };
   }
 
@@ -167,7 +165,7 @@ export class EditorComponent implements OnInit, AfterContentInit, OnDestroy, Con
       if (this.type !== 'select') {
         return this.value;
       } else {
-        const r = this.options.find(x => x.key === this.value);
+        const r = this.options.find(x => x.key.toString() === this.value);
           if(r === undefined) {
           return this.selectPlaceholder;
         }

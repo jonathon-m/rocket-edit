@@ -7,7 +7,7 @@ import { EditorService } from '../../services/editor.service';
   templateUrl: './select.component.html',
   styleUrls: ['./select.component.css']
 })
-export class SelectComponent implements OnInit, DoCheck, OnDestroy {
+export class SelectComponent implements OnInit, OnDestroy {
 
   value: any;
   subscription: any;
@@ -22,9 +22,13 @@ export class SelectComponent implements OnInit, DoCheck, OnDestroy {
     });
   }
 
-  ngDoCheck() {
+  updateValue(value) {
     this.interact.postData(this.value);
   }
+
+  // ngDoCheck() {
+  //   this.interact.postData(this.value);
+  // }
 
   ngOnDestroy() {
     this.subscription.unsubscribe();

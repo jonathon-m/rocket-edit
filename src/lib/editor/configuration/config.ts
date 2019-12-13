@@ -4,7 +4,6 @@ export interface BaseConfig {
     placeholder?: string;
     required?: boolean;
     title?: string;
-    selectPlaceholder?: string;
 }
 
 export interface RegexTest {
