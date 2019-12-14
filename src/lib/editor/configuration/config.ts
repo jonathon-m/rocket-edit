@@ -15,11 +15,6 @@ export interface TextConfig extends BaseConfig, RegexTest {
     maxlength?: number;
 }
 
-export interface PasswordConfig extends BaseConfig {
-    minlength?: number;
-    maxlength?: number;
-}
-
 export interface SelectConfig extends BaseConfig {
     options: [];
 }
@@ -30,4 +25,4 @@ export interface NumberConfig extends BaseConfig {
     step: any;
 }
 
-export interface GlobalConfig extends TextConfig, PasswordConfig, SelectConfig, NumberConfig, RegexTest { }
+export interface GlobalConfig extends TextConfig, SelectConfig, NumberConfig, RegexTest { }
